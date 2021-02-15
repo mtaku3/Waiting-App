@@ -1,24 +1,25 @@
-# waiting-app
+# Waiting App
 
-## Project setup
-```
-npm install
-```
+## So what is this?..
+this application is for some facilities which people needs to wait until they can get the service.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Master socket can show who is waiting and call who you want.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Client socket can register person to waiting list.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## How to use?
+To use this program, first clone this app to your machine.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Then `npm run electron:serve` to run electron app.
+
+`npm run serve` to run normal vue server.
+
+You can use these two apps for master side or client side whichever you want 👍
+
+In `development mode` you'll see header control to go back home menu.
+
+If you don't want these buttons, run the app in `build mode`.
+
+just build the app by using `npm run build` and `npm run electron:build`.
+
+See ya 😋
